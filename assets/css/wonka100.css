@@ -1,0 +1,224 @@
+.queOfre {
+	color: #fafafa;
+	font-weight: 800;
+	font-size: 5em;
+}
+
+.item {
+	font-family: helvetica;
+	font-weight: 500;
+	font-size: 2em;
+	text-align: right;
+
+}
+
+.descriptionS {
+	font-size: 2em;
+}
+
+.pegadoT {
+	margin-bottom: 0;
+}
+.pegadoD {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.foto1 {
+	color: white;
+	width: 100%;
+	height: auto;
+	margin-top: 100px;  
+	margin-bottom: 0;
+} 
+
+.foto2 {
+	color: white;
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 0;
+} 
+
+.smargen{
+	margin-top: 0px;
+	border-top-width: 0;
+}
+
+.blanco2 {
+	color: white;
+}
+
+.fafafa{
+	color: #fafafa;
+}
+
+.queHacemos {
+	margin-right: 0;
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+}
+
+
+/*funcoin java*/
+
+.hideme
+{
+    opacity:0;
+}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.fadecris {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fadecris:hover {
+      opacity: 0.5;
+      }
+
+#fadein {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+#fadein .entra {
+    opacity: 1;
+}
+
+#textoIN  {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+#textoIN .testAP {
+    opacity: 1;
+}
+
+   
+.animated {
+            -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+.fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+
+.animated2 {
+            -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+ 
+.animated3 {
+            -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+ 
+ .aparece {
+    opacity:0;
+}
+
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+.w3-animate-left { 
+    position:relative;
+    animation:animateleft 1.4s}
+    @keyframes animateleft{from{left:-300px;opacity:0} 
+    to{left:0;opacity:1} 
+}
+
+.w3-animate-right{
+    position:relative;
+    animation:animateright 2.0s}
+    @keyframes animateright{from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}}
+
+.w3-animate-bottom{
+    position:relative;
+    animation:animatebottom 1.4s}
+    @keyframes animatebottom{from{bottom:-300px;opacity:0} 
+    to{bottom:0;opacity:1}}
+
+.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.w3-animate-input{transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
+
+.fade-into-view {
+    /* Transition */
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -o-transition: all 0.75s;
+    transition: all 0.75s;
+}
+
+.fade-into-view.fade-out-blur {
+    /* Blur filter */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: url("svg/blur.svg#blur-3");
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+}
+
+.fade-into-view.fade-in-blur {
+    /* Blur filter */
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px); 
+    -o-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    filter: url("svg/blur.svg#blur-0");
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
