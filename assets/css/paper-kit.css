@@ -2564,6 +2564,10 @@ textarea.form-control {
   margin-bottom: 10px;
 }
 
+.cardColor1{
+    color: #
+}
+
 .card {
   border-radius: 12px;
   box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
@@ -2718,8 +2722,13 @@ textarea.form-control {
   text-align: center;
 }
 
+.colorete {
+  color: white;
+}
+
 .footer nav > ul a:not(.btn) {
-  color: #777777;
+  color: #ffffff;
+  text-decoration-color: white;
   display: block;
   margin-bottom: 3px;
   line-height: 1.6;
@@ -2731,12 +2740,12 @@ textarea.form-control {
 
 .footer nav > ul a:not(.btn):hover,
 .footer nav > ul a:not(.btn):focus {
-  color: #777777;
+  color: #ffffff;
   opacity: 1;
 }
 
 .footer .copyright {
-  color: #777777;
+  color: #ffffff;
   padding: 10px 0px;
   font-size: 14px;
   margin: 15px 3px;

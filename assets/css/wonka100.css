@@ -1,3 +1,4 @@
+
 .queOfre {
 	color: #fafafa;
 	font-weight: 800;
@@ -7,13 +8,13 @@
 .item {
 	font-family: helvetica;
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 8px;
 	text-align: right;
 
 }
 
 .descriptionS {
-	font-size: 2em;
+	font-size: 10px;
 }
 
 .pegadoT {
@@ -40,6 +41,14 @@
 	margin-bottom: 0;
 } 
 
+
+.foto3 {
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0;
+} 
 .smargen{
 	margin-top: 0px;
 	border-top-width: 0;
@@ -62,13 +71,23 @@
 
 .haceT {
     font-family: Montserrat;
+    margin-left: 0;
+    position: fixed;
+    margin-right: 0;
     text-align: right;
     color: white;
     font-weight: 700;
-    font-size: 6.5em;
-    letter-spacing: 3px;
+    font-size: 6em;
     line-height: 0.7;
     
+}
+
+.ico-tarj {
+    font-size: 10px;
+}
+
+.medio {
+    position: center;
 }
 
 .wonka {
