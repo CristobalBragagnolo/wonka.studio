@@ -62,11 +62,48 @@
 	color: #fafafa;
 }
 
+.iconos {
+    max-width: 60%;
+    color: #51bcda;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    
+}
+
+.margenIconos{
+    margin-top: 10%;
+    margin-right: 5px;
+}
+
+.sinmargen {
+    padding: 0 0;
+}
+
+.widh {
+    width: 70px;
+}
+
 .queHacemos {
 	margin-right: 0;
 	width: 100%;
 	height: auto;
 	margin-top: 0px;
+}
+
+.iconoCeleste {
+ font-size: 500% !important;
+}
+
+
+.iconoEspacio{
+  margin-top: 10%;
+  position: relative;
+}
+
+
+.centrado {
+    position: center;
 }
 
 .haceT {
@@ -82,7 +119,7 @@
     
 }
 
-.ico-tarj {
+.icotarj {
     font-size: 10px;
 }
 
