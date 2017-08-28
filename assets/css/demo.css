@@ -135,15 +135,15 @@
 }
 
 .footer nav > ul a:not(.btn) {
-  color: #777777;
+  color: #ffffff;
   display: block;
   margin-bottom: 3px;
 }
 .footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
-  color: #E3E3E3;
+  color: #fafafa;
 }
 .footer .copyright {
-  color: #777777;
+  color: #fafafa;
   padding: 10px 15px;
   font-size: 14px;
   margin: 15px 3px;
