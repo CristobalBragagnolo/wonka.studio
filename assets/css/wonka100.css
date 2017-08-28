@@ -76,6 +76,12 @@
     margin-right: 5px;
 }
 
+body {
+
+    background-image: url('assets/img/lion103.jpg'); 
+
+}
+
 .sinmargen {
     padding: 0 0;
 }

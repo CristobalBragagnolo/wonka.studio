@@ -5,6 +5,8 @@
     <link rel="icon" type="assets/image/png" href="assets/img/wonka logo/ws-08.png">
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/wonka logo/ws-08.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#8ac1dd">
 
     <title>wonka.studio</title>
 
@@ -102,6 +104,7 @@
                         Trabajamos con todas las herramientas de punta para brindar un servicio integrado con distintos paquetes que se ajustan a las necesidades del sector. Bienvenido! </h5>
                     </div>
                 </div>
+                   <div class="container">
                    <div class="container row margenIconos">
                                 <div class="col-3 espacio abajo">
                                  <i class="fa fa-html5 fa-5x icon-info" aria-hidden="true"></i>
@@ -115,17 +118,12 @@
                                 <div class="col-3 espacio abajo" data-scroll-reveal="enter left after 0.15s over 1s">
                                  <i class="fa icon-nodejs fa-5x icon-info" aria-hidden="true"></i>
                                 </div>
+                   </div>
                    </div>        
               </div>
             </div>
         </div>    
-                        <!-- Aca iran los iconos -->
-             
-                        <!-- Fin de los iconos -->
-                
-                    
-              
-        </div>
+
 <!-- 3 final de quienes somos -->
 <!-- 4 Que ofrecemos? -->
 
@@ -401,7 +399,7 @@
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <h2 class="text-center" id="contacto">Contactanos.</h2>
-                            <form class="contact-form">
+                            <form class="contact-form" action="https://formspree.io/cristobal.bau@gmail.com" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Nombre</label>
@@ -416,15 +414,15 @@
                                             <span class="input-group-addon">
                                                 <i class="nc-icon nc-email-85"></i>
                                             </span>
-                                            <input type="text" class="form-control" placeholder="Email">
+                                            <input type="email" name="email" class="form-control" placeholder="Tu correo">
                                         </div>
                                     </div>
                                 </div>
                                 <label>Mensaje</label>
-                                <textarea class="form-control" rows="4" placeholder="Escribinos tu consulta aca"></textarea>
+                                <textarea class="form-control" name="message" rows="4" placeholder="Escribinos tu consulta aca"></textarea>
                                 <div class="row">
                                     <div class="col-md-4 offset-md-4">
-                                        <button class="btn btn-info btn-lg btn-fill contact">Enviar Mensaje</button>
+                                        <button type="submit" class="btn btn-info btn-lg btn-fill contact">Enviar Mensaje</button>
                                     </div>
                                 </div>
                             </form>
